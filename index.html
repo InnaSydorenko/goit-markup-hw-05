@@ -50,7 +50,7 @@
         <section class="hero-section">
             <div class="hero-container container">
             <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button class="button">Заказать услугу</button>
+            <button class="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <!-- Секция "Преимущества" -->
@@ -333,6 +333,15 @@
                  </div>
         </div>
     </footer>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal-button" type="button" data-modal-close><svg class="modal-logo" width="11" height="11">
+            <use href="./images/icons.svg#icon-Vector-x"></use>
+        </svg></button>
+    </div>
+</div>
+
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
